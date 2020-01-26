@@ -93,7 +93,7 @@ public class MoveGhostStoryTest extends AbstractAcceptanceTest {
 		// given
 		getEngine().start();
 		// when
-		getUI().getGame().moveGhost(theGhost(), Direction.LEFT);		
+		getUI().getGame().moveGhost(theGhost(), Direction.DOWN);
 		// then
 		assertFalse(getPlayer().isAlive());
 	}
